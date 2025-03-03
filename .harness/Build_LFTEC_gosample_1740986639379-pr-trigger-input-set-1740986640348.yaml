@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_LFTEC_gosample_1740986639379-pr-trigger-input-set
+  identifier: Build_LFTEC_gosample_1740986639379prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_LFTEC_gosample_1740986639379
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
